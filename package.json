@@ -1,7 +1,7 @@
 {
   "description": "The groc style for the Shrub project",
   "name": "shrub-groc-style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "cha0s <cha0s@cha0s.io>",
   "dependencies": {
     "coffee-script": ">= 1.1.3",
