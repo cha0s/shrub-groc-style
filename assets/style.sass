@@ -638,3 +638,23 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small
 
 img
   margin: 20px
+  
+// No code pages
+@media (min-width: #{$single-column-toggle-width})
+  html.no-code
+    background: transparent
+
+    body
+      max-width: none
+
+      #document
+        background: transparent
+
+        .segment
+          padding-left: 0
+
+          .comments
+            margin-left: 0
+            width: calc(100% - 24em)
+
+          
